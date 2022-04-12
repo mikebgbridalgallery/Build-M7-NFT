@@ -3,8 +3,8 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "TemplateData/img/favicon.ico",
-      "sizes": "256x256",
+      "src": "TemplateData/img/favicon.ico?v=1.1b8",
+      "sizes": "16x16",
       "type": "image/png"
     }
   ],
