@@ -1,9 +1,9 @@
 <linker>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[UnityEngine.GameObject]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[UnityEngine.Sprite]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
@@ -11,7 +11,153 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
   </assembly>
+  <assembly fullname="M7, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="M7.GameData.CharacterObject" preserve="all" />
+    <type fullname="M7.GameData.GemObject" preserve="all" />
+    <type fullname="M7.GameData.IncubatorObject" preserve="all" />
+    <type fullname="M7.GameData.CurrencyObject" preserve="all" />
+    <type fullname="ColorInHierarchy" preserve="all" />
+    <type fullname="M7.GameRuntime.AddressableAssetDisposeManager" preserve="all" />
+    <type fullname="M7.GameData.LevelData" preserve="all" />
+    <type fullname="Cdn2Initializer" preserve="all" />
+    <type fullname="BuildVersioning" preserve="all" />
+    <type fullname="M7.GameRuntime.WindowEventManager" preserve="all" />
+    <type fullname="PreloadBattleScript" preserve="all" />
+    <type fullname="M7.GameRuntime.GameManager" preserve="all" />
+    <type fullname="PlayfabDataSynchronization" preserve="all" />
+    <type fullname="M7.GameRuntime.PreloadbattleTeamManager" preserve="all" />
+    <type fullname="M7.GameRuntime.CharacterInstance_Spine" preserve="all" />
+    <type fullname="AutoRotate" preserve="all" />
+    <type fullname="LoginSceneManager" preserve="all" />
+    <type fullname="M7.GameData.PlayerDatabase" preserve="all" />
+    <type fullname="M7.GameRuntime.CharacterSelectionTargetManager" preserve="all" />
+    <type fullname="WorldAnimation_Shake" preserve="all" />
+    <type fullname="M7.GameData.BattleSceneSettings" preserve="all" />
+    <type fullname="M7.GameRuntime.BattleManager" preserve="all" />
+    <type fullname="M7.GameRuntime.UIOnClickCharacter" preserve="all" />
+    <type fullname="M7.Skill.StatusEffectValue_CharacterStats" preserve="all" />
+    <type fullname="M7.Skill.StatusEffect_CharacterStats" preserve="all" />
+    <type fullname="M7.Skill.TargetSorterItem_CharacterSpeed" preserve="all" />
+    <type fullname="M7.GameRuntime.BattleCameraHandler" preserve="all" />
+    <type fullname="M7.GameRuntime.CardManager" preserve="all" />
+    <type fullname="M7.Skill.TargetSorterItem_CharacterCritical" preserve="all" />
+    <type fullname="M7.Skill.StatusEffectInstance_InputValueCharacterStats" preserve="all" />
+    <type fullname="M7.Skill.TargetManager_CharacterInstance" preserve="all" />
+    <type fullname="M7.GameRuntime.UIActionLogManager" preserve="all" />
+    <type fullname="M7.GameRuntime.UIBattleSettingsManager" preserve="all" />
+    <type fullname="M7.GameRuntime.LevelManager" preserve="all" />
+    <type fullname="M7.GameRuntime.CharacterQueueMananger" preserve="all" />
+    <type fullname="M7.GameRuntime.CastVfxManager" preserve="all" />
+    <type fullname="M7.GameRuntime.CharacterCardInfoManager" preserve="all" />
+    <type fullname="PlayerExpData" preserve="all" />
+    <type fullname="M7.GameRuntime.UIGameBattleManager" preserve="all" />
+    <type fullname="M7.Skill.SkillManager" preserve="all" />
+    <type fullname="M7.GameRuntime.WaveTransitionManager" preserve="all" />
+    <type fullname="M7.GameRuntime.UICardCount" preserve="all" />
+    <type fullname="M7.Skill.SkillObject" preserve="all" />
+    <type fullname="M7.Skill.TargetSorterItem_PositionDistance" preserve="all" />
+    <type fullname="VFX_SkillCard_Used" preserve="all" />
+    <type fullname="M7.Tools.Scripts.M7GameDebug" preserve="all" />
+    <type fullname="M7.GameRuntime.TeamManager_Default" preserve="all" />
+    <type fullname="M7.GameRuntime.UIFollowWorldObject" preserve="all" />
+    <type fullname="M7.GameRuntime.UIWaveManager" preserve="all" />
+    <type fullname="M7.GameRuntime.UIBattle_CardPref" preserve="all" />
+    <type fullname="M7.Skill.TargetSorterItem_CharacterMaxHp" preserve="all" />
+    <type fullname="M7.Skill.StatusEffect_TeamStats" preserve="all" />
+    <type fullname="M7.GameRuntime.UIPrefManager_CharacterStats" preserve="all" />
+    <type fullname="M7.GameRuntime.UIBattle_CharacterStats" preserve="all" />
+    <type fullname="M7.Skill.TargetManagerSingleTarget_CharacterInstance" preserve="all" />
+    <type fullname="GameoverRewardHandler" preserve="all" />
+    <type fullname="M7.GameRuntime.TurnManager" preserve="all" />
+    <type fullname="M7.GameRuntime.UIValueAnimationEffect_Bounce" preserve="all" />
+    <type fullname="M7.FX.ParticleWorldManager" preserve="all" />
+    <type fullname="M7.GameRuntime.UIValueImage_Update" preserve="all" />
+    <type fullname="M7.GameRuntime.BattleWorldCamera" preserve="all" />
+    <type fullname="M7.Skill.TargetSorterItem_CharacterInstanceID" preserve="all" />
+    <type fullname="M7.GameRuntime.UITeamSkillPoints" preserve="all" />
+    <type fullname="M7.GameRuntime.Scripts.Tweens.CharacterTargetTween" preserve="all" />
+    <type fullname="GameFinishManager" preserve="all" />
+    <type fullname="BackgroundDimmerVFX" preserve="all" />
+    <type fullname="M7.Skill.StatusEffectInstance_InputValueTeamStats" preserve="all" />
+    <type fullname="M7.GameRuntime.UIValue" preserve="all" />
+    <type fullname="M7.GameRuntime.TeamManager_Battle" preserve="all" />
+    <type fullname="M7.GameRuntime.CountdownManager" preserve="all" />
+    <type fullname="M7.Skill.TargetManagerSingleTarget_Team" preserve="all" />
+    <type fullname="M7.GameRuntime.BattleMessageManager" preserve="all" />
+    <type fullname="M7.GameRuntime.CharacterAnimationEventManager" preserve="all" />
+    <type fullname="M7.GameRuntime.UIDelayValue" preserve="all" />
+    <type fullname="RewardChip" preserve="all" />
+    <type fullname="ChipData" preserve="all" />
+    <type fullname="M7.FX.VFX.Scripts.VFXCharSkillSystem" preserve="all" />
+    <type fullname="M7.Skill.StatusEffectValue_FixValue" preserve="all" />
+    <type fullname="M7.GameRuntime.UICharacterActiveQueue" preserve="all" />
+    <type fullname="M7.GameRuntime.CharacterOverdriveManager" preserve="all" />
+    <type fullname="M7.Tools.Scripts.CharacterSkillTest" preserve="all" />
+    <type fullname="M7.GameRuntime.CharacterInstance_Battle" preserve="all" />
+    <type fullname="M7.GameData.ChapterData" preserve="all" />
+    <type fullname="M7.GameData.EquipmentItem" preserve="all" />
+    <type fullname="M7.GameRuntime.CharacterSpine" preserve="all" />
+    <type fullname="M7.GameRuntime.Scripts.Statebehaviours.AttackAnimationCompleteBehaviour" preserve="all" />
+    <type fullname="M7.GameRuntime.ExpressionController" preserve="all" />
+    <type fullname="M7.GameRuntime.Scripts.Spine.AttackAnimationCallback" preserve="all" />
+    <type fullname="M7.GameRuntime.SpineOffsetManager" preserve="all" />
+    <type fullname="M7.SFXRuntime.SFX_Character" preserve="all" />
+    <type fullname="M7.GameData.Environment" preserve="all" />
+    <type fullname="M7.GameData.EnvironmentItem" preserve="all" />
+    <type fullname="M7.FX.VFXCharSkillSystem_ProjectileObject" preserve="all" />
+    <type fullname="M7.Skill.TargetSorterItem_FormationGroup" preserve="all" />
+    <type fullname="M7.Skill.StatusEffectInstance_CastSkill" preserve="all" />
+    <type fullname="M7.Skill.TargetFilterItemCustom_CharacterHp" preserve="all" />
+    <type fullname="M7.FX.VFXSubEmitter" preserve="all" />
+    <type fullname="M7.Skill.StatusEffect_CastSkill" preserve="all" />
+    <type fullname="M7.GameData.RPGElement" preserve="all" />
+    <type fullname="M7.CDN.M7StorageAssetBundleProvider" preserve="all" />
+    <type fullname="M7.CDN.Addressable.AssetReferenceDataArray`1[M7.GameData.EquipmentItem]" preserve="nothing" serialized="true" />
+    <type fullname="M7.CDN.Addressable.AssetReferenceData`1[M7.GameData.EquipmentItem]" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.CharacterDisplayStats" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.CombatStats_WithModifier" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.Equipments" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.RpgObjectDisplayStats" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.Inventories" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.InventoryData`1[M7.GameData.SaveableCharacterData]" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.InventoryData`1[M7.GameData.SaveableCurrencyData]" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.InventoryData`1[M7.GameData.SaveableGemData]" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.InventoryData`1[M7.GameData.SaveableIncubatorData]" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.PlayerTeams" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.SaveableCharacterData" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.SaveableCharacterData_Enemy" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.TeamData_Enemy" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.TeamData_Player" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.WaveData_Enemy" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.WaveData_Player" preserve="nothing" serialized="true" />
+    <type fullname="Chips" preserve="nothing" serialized="true" />
+    <type fullname="M7.FX.VfxTargetDataNonProjectile" preserve="nothing" serialized="true" />
+    <type fullname="M7.FX.VfxTargetDataProjectile" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameRuntime.ElementCastVfx" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameRuntime.Scripts.Managers.BattleScreen.TargetCursor" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameRuntime.SkillElementDisplay" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameRuntime.SkillElementDisplays" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameRuntime.StatsInstance_CharacterBattle" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameRuntime.StatsInstance_Team" preserve="nothing" serialized="true" />
+    <type fullname="M7.Skill.DefaultSkillActionTrigger" preserve="nothing" serialized="true" />
+    <type fullname="M7.Skill.DisplayStats" preserve="nothing" serialized="true" />
+    <type fullname="M7.Skill.ExpirationData" preserve="nothing" serialized="true" />
+    <type fullname="M7.Skill.SkillData_MultipleEffect" preserve="nothing" serialized="true" />
+    <type fullname="M7.Skill.SkillData_Singleffect" preserve="nothing" serialized="true" />
+    <type fullname="M7.Skill.TargetFilterItem_CharacterInstanceBattle" preserve="nothing" serialized="true" />
+    <type fullname="M7.Skill.TargetFilterItem_Team" preserve="nothing" serialized="true" />
+    <type fullname="M7.Skill.TargetFilter_Character" preserve="nothing" serialized="true" />
+    <type fullname="M7.Skill.TargetFilter_Team" preserve="nothing" serialized="true" />
+    <type fullname="M7.Skill.TargetSorter`1[M7.GameRuntime.CharacterInstance_Battle]" preserve="nothing" serialized="true" />
+    <type fullname="M7.Skill.TargetSorter`1[M7.GameRuntime.TeamManager_Battle]" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.CombatStats" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameData.EquipmentItem_BodyPartData" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameRuntime.SkillVfxOffset" preserve="nothing" serialized="true" />
+    <type fullname="M7.GameRuntime.SpineSkinGenerator" preserve="nothing" serialized="true" />
+    <type fullname="M7.SFXRuntime.SFX_Trigger" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Camera" preserve="all" />
@@ -21,7 +167,6 @@
     <type fullname="UnityEngine.RenderTexture" preserve="all" />
     <type fullname="UnityEngine.Cubemap" preserve="all" />
     <type fullname="UnityEngine.RenderSettings" preserve="all" />
-    <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
@@ -30,8 +175,11 @@
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
-    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
+    <type fullname="UnityEngine.FlareLayer" preserve="all" />
+    <type fullname="UnityEngine.Rendering.SortingGroup" preserve="all" />
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
     <type fullname="UnityEngine.LineRenderer" preserve="all" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
@@ -39,6 +187,9 @@
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[System.Boolean]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[System.Single]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[System.String]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
@@ -70,6 +221,10 @@
     <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.Toggle" preserve="all" />
+    <type fullname="UnityEngine.UI.RawImage" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
@@ -79,100 +234,14 @@
     <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="LeanGUI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Lean.Gui.LeanTooltip" preserve="all" />
     <type fullname="Lean.Gui.LeanButton" preserve="all" />
     <type fullname="Lean.Gui.LeanWindow" preserve="all" />
     <type fullname="Lean.Gui.LeanTooltip/UnityEventString" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="M7, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="ColorInHierarchy" preserve="all" />
-    <type fullname="M7.GameRuntime.AddressableAssetDisposeManager" preserve="all" />
-    <type fullname="M7.GameData.LevelData" preserve="all" />
-    <type fullname="Cdn2Initializer" preserve="all" />
-    <type fullname="BuildVersioning" preserve="all" />
-    <type fullname="M7.GameRuntime.WindowEventManager" preserve="all" />
-    <type fullname="PreloadBattleScript" preserve="all" />
-    <type fullname="M7.GameRuntime.GameManager" preserve="all" />
-    <type fullname="PlayfabDataSynchronization" preserve="all" />
-    <type fullname="M7.GameRuntime.PreloadbattleTeamManager" preserve="all" />
-    <type fullname="M7.GameRuntime.CharacterInstance_Spine" preserve="all" />
-    <type fullname="AutoRotate" preserve="all" />
-    <type fullname="LoginSceneManager" preserve="all" />
-    <type fullname="M7.GameData.PlayerDatabase" preserve="all" />
-    <type fullname="M7.GameData.CharacterObject" preserve="all" />
-    <type fullname="M7.GameData.GemObject" preserve="all" />
-    <type fullname="M7.GameData.IncubatorObject" preserve="all" />
-    <type fullname="M7.GameData.CurrencyObject" preserve="all" />
-    <type fullname="M7.GameData.EquipmentItem" preserve="all" />
-    <type fullname="M7.GameRuntime.CharacterSpine" preserve="all" />
-    <type fullname="M7.GameRuntime.Scripts.Statebehaviours.AttackAnimationCompleteBehaviour" preserve="all" />
-    <type fullname="M7.GameRuntime.ExpressionController" preserve="all" />
-    <type fullname="M7.GameRuntime.Scripts.Spine.AttackAnimationCallback" preserve="all" />
-    <type fullname="M7.GameRuntime.SpineOffsetManager" preserve="all" />
-    <type fullname="M7.SFXRuntime.SFX_Character" preserve="all" />
-    <type fullname="M7.GameData.Environment" preserve="all" />
-    <type fullname="M7.GameData.EnvironmentItem" preserve="all" />
-    <type fullname="M7.FX.VFXCharSkillSystem_ProjectileObject" preserve="all" />
-    <type fullname="M7.Skill.StatusEffectValue_CharacterStats" preserve="all" />
-    <type fullname="M7.Skill.StatusEffect_CharacterStats" preserve="all" />
-    <type fullname="M7.Skill.TargetSorterItem_CharacterSpeed" preserve="all" />
-    <type fullname="M7.Skill.TargetSorterItem_CharacterCritical" preserve="all" />
-    <type fullname="M7.Skill.StatusEffectInstance_InputValueCharacterStats" preserve="all" />
-    <type fullname="M7.Skill.TargetManager_CharacterInstance" preserve="all" />
-    <type fullname="M7.Skill.SkillObject" preserve="all" />
-    <type fullname="M7.Skill.TargetSorterItem_PositionDistance" preserve="all" />
-    <type fullname="M7.Skill.TargetSorterItem_CharacterMaxHp" preserve="all" />
-    <type fullname="M7.Skill.StatusEffect_TeamStats" preserve="all" />
-    <type fullname="M7.Skill.TargetSorterItem_FormationGroup" preserve="all" />
-    <type fullname="M7.Skill.StatusEffectInstance_CastSkill" preserve="all" />
-    <type fullname="M7.Skill.TargetManagerSingleTarget_CharacterInstance" preserve="all" />
-    <type fullname="M7.Skill.TargetFilterItemCustom_CharacterHp" preserve="all" />
-    <type fullname="M7.FX.VFXSubEmitter" preserve="all" />
-    <type fullname="M7.Skill.TargetSorterItem_CharacterInstanceID" preserve="all" />
-    <type fullname="M7.Skill.StatusEffectInstance_InputValueTeamStats" preserve="all" />
-    <type fullname="M7.Skill.TargetManagerSingleTarget_Team" preserve="all" />
-    <type fullname="M7.Skill.StatusEffect_CastSkill" preserve="all" />
-    <type fullname="M7.FX.VFX.Scripts.VFXCharSkillSystem" preserve="all" />
-    <type fullname="M7.Skill.StatusEffectValue_FixValue" preserve="all" />
-    <type fullname="M7.GameData.RPGElement" preserve="all" />
-    <type fullname="M7.CDN.M7StorageAssetBundleProvider" preserve="all" />
-    <type fullname="M7.GameData.Inventories" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.InventoryData`1[M7.GameData.SaveableCharacterData]" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.InventoryData`1[M7.GameData.SaveableCurrencyData]" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.InventoryData`1[M7.GameData.SaveableGemData]" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.InventoryData`1[M7.GameData.SaveableIncubatorData]" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.PlayerTeams" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.SaveableCharacterData" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.SaveableCharacterData_Enemy" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.TeamData_Enemy" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.TeamData_Player" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.WaveData_Enemy" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.WaveData_Player" preserve="nothing" serialized="true" />
-    <type fullname="M7.CDN.Addressable.AssetReferenceDataArray`1[M7.GameData.EquipmentItem]" preserve="nothing" serialized="true" />
-    <type fullname="M7.CDN.Addressable.AssetReferenceData`1[M7.GameData.EquipmentItem]" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.CharacterDisplayStats" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.CombatStats" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.CombatStats_WithModifier" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.EquipmentItem_BodyPartData" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.Equipments" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameData.RpgObjectDisplayStats" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameRuntime.SkillVfxOffset" preserve="nothing" serialized="true" />
-    <type fullname="M7.GameRuntime.SpineSkinGenerator" preserve="nothing" serialized="true" />
-    <type fullname="M7.SFXRuntime.SFX_Trigger" preserve="nothing" serialized="true" />
-    <type fullname="M7.FX.VfxTargetDataNonProjectile" preserve="nothing" serialized="true" />
-    <type fullname="M7.FX.VfxTargetDataProjectile" preserve="nothing" serialized="true" />
-    <type fullname="M7.Skill.DisplayStats" preserve="nothing" serialized="true" />
-    <type fullname="M7.Skill.ExpirationData" preserve="nothing" serialized="true" />
-    <type fullname="M7.Skill.SkillData_MultipleEffect" preserve="nothing" serialized="true" />
-    <type fullname="M7.Skill.SkillData_Singleffect" preserve="nothing" serialized="true" />
-    <type fullname="M7.Skill.TargetFilterItem_CharacterInstanceBattle" preserve="nothing" serialized="true" />
-    <type fullname="M7.Skill.TargetFilterItem_Team" preserve="nothing" serialized="true" />
-    <type fullname="M7.Skill.TargetFilter_Character" preserve="nothing" serialized="true" />
-    <type fullname="M7.Skill.TargetFilter_Team" preserve="nothing" serialized="true" />
-    <type fullname="M7.Skill.TargetSorter`1[M7.GameRuntime.CharacterInstance_Battle]" preserve="nothing" serialized="true" />
-    <type fullname="M7.Skill.TargetSorter`1[M7.GameRuntime.TeamManager_Battle]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="LeanTransition, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Lean.Transition.Method.LeanTransformLocalScale_xy" preserve="all" />
@@ -197,6 +266,7 @@
     <type fullname="WalletConnectSharp.Unity.Network.NativeWebSocketTransport" preserve="all" />
     <type fullname="Login" preserve="all" />
     <type fullname="WalletConnectSharp.Unity.WalletConnect" preserve="all" />
+    <type fullname="Coffee.UIExtensions.UIDissolve" preserve="all" />
     <type fullname="Morlais.WalletSelectItem" preserve="nothing" serialized="true" />
     <type fullname="WalletConnectSharp.Core.Models.ClientMeta" preserve="nothing" serialized="true" />
     <type fullname="WalletConnectSharp.Unity.WalletConnect/WalletConnectEventNoSession" preserve="nothing" serialized="true" />
@@ -234,6 +304,32 @@
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasGroup" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider2D" preserve="all" />
+  </assembly>
+  <assembly fullname="MasterAudio, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DarkTonic.MasterAudio.EventSounds" preserve="all" />
+    <type fullname="DarkTonic.MasterAudio.SoundGroupVariationUpdater" preserve="all" />
+    <type fullname="DarkTonic.MasterAudio.DynamicSoundGroup" preserve="all" />
+    <type fullname="DarkTonic.MasterAudio.MasterAudio" preserve="all" />
+    <type fullname="DarkTonic.MasterAudio.SoundGroupVariation" preserve="all" />
+    <type fullname="DarkTonic.MasterAudio.PlaylistController" preserve="all" />
+    <type fullname="DarkTonic.MasterAudio.DynamicGroupVariation" preserve="all" />
+    <type fullname="DarkTonic.MasterAudio.MasterAudioGroup" preserve="all" />
+    <type fullname="DarkTonic.MasterAudio.DynamicSoundGroupCreator" preserve="all" />
+    <type fullname="DarkTonic.MasterAudio.AudioEvent" preserve="nothing" serialized="true" />
+    <type fullname="DarkTonic.MasterAudio.AudioEvent/MA_SnapshotInfo" preserve="nothing" serialized="true" />
+    <type fullname="DarkTonic.MasterAudio.AudioEventGroup" preserve="nothing" serialized="true" />
+    <type fullname="DarkTonic.MasterAudio.CustomEventCategory" preserve="nothing" serialized="true" />
+    <type fullname="DarkTonic.MasterAudio.GroupBus" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="PathologicalGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="PathologicalGames.SpawnPool" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
   <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Spine.Unity.SkeletonMecanim" preserve="all" />
     <type fullname="Spine.Unity.SpineAtlasAsset" preserve="all" />
@@ -254,10 +350,6 @@
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="LaserLine" preserve="all" />
-  </assembly>
-  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
-    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Playables.PlayableDirector" preserve="all" />
