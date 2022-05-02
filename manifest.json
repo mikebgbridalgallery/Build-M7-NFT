@@ -12,5 +12,7 @@
   "start_url": "index.html",
   "short_name": "M7",
   "orientation":  "landscape",
-  "purpose": "maskable"
+  "purpose": "maskable",
+  "theme_color": "blue",
+  "background_color": "blue"
 }
