@@ -3,7 +3,7 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "TemplateData/img/maskable_icon.png?v=1.1b11a",
+      "src": "TemplateData/img/sword.png?v=1.1b11c",
       "sizes": "256x256",
       "type": "image/png"
     }
