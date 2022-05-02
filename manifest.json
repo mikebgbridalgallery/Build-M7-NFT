@@ -10,5 +10,6 @@
   ],
   "name": "Murasaki7",
   "start_url": "index.html",
-  "short_name": "M7"  
+  "short_name": "M7",
+  "orientation":  "landscape"  
 }
