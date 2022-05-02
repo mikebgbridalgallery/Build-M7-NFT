@@ -5,14 +5,14 @@
     {
       "src": "TemplateData/img/sword.png?v=1.1b11c",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "name": "Murasaki7",
   "start_url": "index.html",
   "short_name": "M7",
-  "orientation":  "landscape",
-  "purpose": "maskable",
+  "orientation":  "landscape",  
   "theme_color": "blue",
   "background_color": "blue"
 }
