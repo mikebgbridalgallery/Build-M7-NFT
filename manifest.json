@@ -4,7 +4,7 @@
   "icons": [
     {
       "src": "TemplateData/img/sword.png?v=1.1b11c",
-      "sizes": "256x256",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
